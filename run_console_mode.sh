@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo Environment variable KATALONSTUDIO_HOME=$KATALONSTUDIO_HOME
-echo Environment variable url=$url
+echo Environment variable KATALONSTUDIO_HOME="$KATALONSTUDIO_HOME"
+echo Environment variable url="$url"
 
 PROJECT_DIR=`pwd`
 echo PROJECT_DIR="$PROJECT_DIR"
