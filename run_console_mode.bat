@@ -9,7 +9,7 @@ echo PROJECT_DIR=%PROJECT_DIR%
 
 cd "%KATALONSTUDIO_HOME%"
 
-.\katalon.exe -noSplash -runMode=console -summaryReport -projectPath="%PROJECT_DIR%" -testSuiteCollectionPath="Test Suites\TCS" --config -proxyOption=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address="172.24.2.10" -proxy.server.port="8080"
+.\katalon.exe -noSplash -runMode=console -summaryReport -projectPath="%PROJECT_DIR%" -testSuiteCollectionPath="Test Suites\TSC" --config -proxyOption=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address="172.24.2.10" -proxy.server.port="8080"
 set exitCode=%ERRORLEVEL%
 
 cd /d "%PROJECT_DIR%"
