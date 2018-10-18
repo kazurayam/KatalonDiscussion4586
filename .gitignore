@@ -8,12 +8,11 @@
 \.classpath
 \.project
 \.settings/
-/bin/lib/
-/Libs/
+# /bin/lib/
+# /Libs/
 
 ## I do not want Report to be published
 /Reports/
-/bin/
 /Materials/
 
 # hide my sensitive information
