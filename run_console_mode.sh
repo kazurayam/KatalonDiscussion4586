@@ -3,7 +3,7 @@
 echo Environment variable KATALONSTUDIO_HOME="$KATALONSTUDIO_HOME"
 echo Environment variable url="$url"
 
-PROJECT_DIR=`pwd`
+PROJECT_DIR=$(pwd)
 echo PROJECT_DIR="$PROJECT_DIR"
 
 cd "$KATALONSTUDIO_HOME"
